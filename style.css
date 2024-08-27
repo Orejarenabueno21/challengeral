@@ -1,0 +1,31 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+    background-color: #E5E5E5;
+    height: 100vh;
+}
+.presentacion{
+    display: column;
+    align-items: center;
+    margin: 10%;
+    justify-content: space-between;
+}
+.botones{
+    display: flex;
+    justify-content: space-between;
+}
+
+.boton__encriptar{
+    width: 328px;
+    background-color: #0A3871;
+    text-align: center;
+    padding: 24px 24px;
+}
+
+.boton__desencriptar{
+    width: 328px;
+    background-color: #D8DFE8;
+}
